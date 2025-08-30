@@ -6,7 +6,7 @@ function minMax(arr){
         return a - b
     })
     
-    let new_arr =[tableau[0],tableau[tableau.length-1]]
+    let new_arr =[tableau_trie[0],tableau_trie[tableau_trie.length-1]]
     console.log(new_arr)
 }
 
