@@ -6,16 +6,16 @@ function isSpecialArray(arr) {
         
         if(i%2==0){
             if((arr[i])%2 !== 0){
-                return false
+                return console.log(false)
             }
         }
         if(i%2!==0){
             if((arr[i])%2 === 0){
-                return false
+                return console.log(false)
             }
         }
-    }return true
+    }return console.log(true)
 }
 
-console.log(isSpecialArray(tableau)) 
-console.log(isSpecialArray(tableau2))
+isSpecialArray(tableau) 
+isSpecialArray(tableau2)
