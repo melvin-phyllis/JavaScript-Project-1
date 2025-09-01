@@ -1,9 +1,10 @@
 let array = [1, 9, 5, 8, 2];
 let array1 = [9, 5, 8,1, 9, 5, 8, 2];
-let somme = 0;
+
 
 function marathonDistance(d) {
   //boucle qui permettra de parcourir le tableau tout en fesant la somme de c'est composant 
+  let somme = 0;
     for (let i = 0; i < d.length; i++) {
         somme += d[i];
     }
