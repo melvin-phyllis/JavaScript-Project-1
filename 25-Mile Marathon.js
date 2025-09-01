@@ -7,7 +7,7 @@ function marathonDistance(d) {
     for (let i = 0; i < d.length; i++) {
         somme += d[i];
     }
-//condition qui verifie si le total du tableau est = 25 ou nn 
+//condition qui verifie si le total du tableau est = 25 
     if (somme === 25) {
         return console.log(true);
     } 
